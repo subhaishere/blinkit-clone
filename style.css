@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.blinkit-navbar{
+     height: 86px;
+     display: flex;
+     justify-content: space-between;
+     position: sticky;
+     top:0px;
+     background-color: white;
+     align-items: center;
+     padding-top: 10px;
+     border-bottom: 1px solid rgb(238, 238, 238);
+     cursor: pointer;
+}
+.verticle-line{
+    border-left:1px solid rgb(238, 238, 238);
+    height:86px;
+}
+.time-taken{
+    margin-top: 10px;
+    padding: 20px;
+}
+.time-taken>p{
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.search{
+    width:40%;
+    padding: 0px 12px;
+    height: 46px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+.s-bar{
+    width: 500px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    color: rgb(130, 130, 130);
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    overflow-x: auto;
+    width:92vw;
+}
+.list{
+    width:100%;
+    white-space:nowrap;
+     margin-inline: auto;
+}
+.list>div{
+    display: inline-block;
+    margin: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.categories-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 92vw;
+    margin-inline:auto;
+}
+/* .categories-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85vw;
+    margin-inline: auto;
+} */
+
+.categories-row-div{
+    display: flex;
+    width: 92vw;
+    justify-content: center;    
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+
+}
+
+.my-card{
+    width: 190px;
+    box-sizing: border-box;
+
+}
+
+.time{
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding:1px 3px ;
+}
+
+.product-name{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+
+.product-weight{
+    color:#666666;
+    font-size: 11px;
+}
+
+
+.product-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.product-btn{
+    border: 1px solid green;
+    color: rgb(49, 134, 22);
+    border-radius: 6px;
+    background-color: rgb(247, 255, 249);
+    width: 66px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.categories-row{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+    
+}
+.categories-row>div{
+    display: inline-block;
+    margin: 10px;
+
+}
+.my-footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-inline: auto;
+    width: 85vw;
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.row-2-col-1{
+    width: 30vw;
+}
+
+.row-2-col-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2-col-2>button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    background-color: #213b50;
+    margin-inline: 5px;
+}
+
+.row-2-col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-2-col-3>a{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+}
+.row-3{
+    color:#666666;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+td{
+    padding: 3px 20px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+tr>th{
+    text-align:start;
+    padding-left: 30px;
+}
+.table-2{
+    flex: 4;
+}
+
+.table-1{
+    flex: 2;
+}
